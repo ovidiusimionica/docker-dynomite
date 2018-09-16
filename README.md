@@ -9,7 +9,7 @@ That is if you plan to create a dynomite cluster like I wanted to.
 
 I give away an ansible snippet for inspiration:
 
-'''
+```
 dyn_o_mite:
      datacenter: us-east-{{node_id}}
      listen: 0.0.0.0:{{ dynomite_client_port }}
@@ -32,5 +32,5 @@ dyn_o_mite:
      recon_iv_file: /etc/dynomitedb/recon_iv.pem
      read_consistency: {{ dynomite_read_consistency }}
      write_consistency: {{ dynomite_write_consistency }}
-'''
+```
 
