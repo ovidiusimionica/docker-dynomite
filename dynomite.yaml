@@ -1,0 +1,10 @@
+dyn_o_mite:
+  listen: 0.0.0.0:8102
+  dyn_listen: 0.0.0.0:8101
+  tokens: '0'
+  servers:
+  - 127.0.0.1:22122:1
+  data_store: 0
+  mbuf_size: 16384
+  max_msgs: 300000
+  pem_key_file: /etc/dynomitedb/dynomite.pem
